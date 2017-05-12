@@ -14,13 +14,17 @@ See [`lab1.pdf`](https://github.com/gousaiyang/icslabs/blob/master/lab1/lab1.pdf
 
 - `bits.c`
 
-## My score and hints
+## My score and feelings
 
 ### My score
 
 75 / 75
 
-### Hints (这部分用中文写可能更容易理解)
+### My general feelings
+
+这个 lab 感觉像是一个智力测试，有一定的思维难度，但编码很轻松。
+
+## Hints
 
 关于位运算的一些技巧：
 
@@ -32,7 +36,7 @@ See [`lab1.pdf`](https://github.com/gousaiyang/icslabs/blob/master/lab1/lab1.pdf
     - `x >> 31` 可以把 x 的最高位（即符号位）拖满 32 位。
     - `x << 31 >> 31` 可以把 x 的最低位拖满 32 位。
 2. 使用多路复用器结构实现条件表达式
-多路复用器(multiplexor)本来是数字电路中的概念，这里使用的表达式格式非常相似，具体参见 `conditional` 函数。
+  - 多路复用器(multiplexor)本来是数字电路中的概念，这里使用的表达式格式非常相似，具体参见 `conditional` 函数。
 3. 利用一些运算性质
   - `-x = ~x + 1`
   - `leastBitPos` 的运算性质（参见代码）

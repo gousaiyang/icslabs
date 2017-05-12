@@ -1,0 +1,343 @@
+/lib/ld-linux.so.2
+libc.so.6
+_IO_stdin_used
+socket
+cuserid
+fflush
+strcpy
+exit
+sprintf
+fopen
+__isoc99_sscanf
+connect
+signal
+puts
+stdin
+inet_pton
+rewind
+strtol
+fgets
+tmpfile
+__errno_location
+stdout
+fputc
+fclose
+strcat
+__ctype_b_loc
+getenv
+system
+gethostbyname
+fwrite
+bcopy
+fprintf
+sleep
+__libc_start_main
+__gmon_start__
+GLIBC_2.3
+GLIBC_2.7
+GLIBC_2.1
+GLIBC_2.0
+PTRhP
+UWVS
+,[^_]
+D$4f
+jPh7
+UWVS
+[^_]
+UWVS
+D$`Subj
+D$dect:
+D$h Bom
+D$lb no
+D$ptifi
+D$tcati
+D$xon
+nobof
+\$|S
+[^_]
+UWVS
+nobof
+l[^_]
+[^_]
+%s: Error: Couldn't open %s
+Usage: %s [<input_file>]
+That's number 2.  Keep going!
+Halfway there!
+Good work!  On to the next...
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+So you got that one.  Try this one.
+For NASA, space is still a high priority.
+Wow! You've defused the secret stage!
+So you think you can stop the bomb with ctrl-c, do you?
+Your instructor has been notified.
+Curses, you've found the secret phase!
+But finding it and solving it are quite different...
+Congratulations! You've defused the bomb!
+Your instructor has been notified and will verify your solution.
+Well...
+OK. :-)
+Invalid phase%s
+Bad host (1).
+Bad host (2).
+Bad host (3).
+202.120.40.188
+defused
+exploded
+socket error
+connect error
+bomb-header:%s:%d:%s:%s:%d
+bomb-string:%s:%d:%s:%d:%s
+socket write error
+ERROR: dup(0) error
+ERROR: close error
+ERROR: tmpfile error
+Subject: Bomb notification
+localhost
+icsbomb
+/usr/sbin/sendmail -bm
+%s %s@%s
+ERROR: notification error
+ERROR: fclose(tmp) error
+ERROR: dup(tmpstdin) error
+ERROR: close(tmpstdin)
+BOOM!!!
+The bomb has blown up.
+%d %d %d %d %d %d
+Error: Premature EOF on stdin
+GRADE_BOMB
+Error: Input line too long
+%d %s
+austinpowers
+;*2$"4
+SE152016Lab2
+GCC: (Debian 4.9.2-10) 4.9.2
+GCC: (Debian 4.8.4-1) 4.8.4
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include
+/usr/include/bits
+/usr/include
+bomb.c
+stddef.h
+types.h
+stdio.h
+libio.h
+<built-in>
+phases.h
+support.h
+_IO_buf_end
+__quad_t
+fopen
+_old_offset
+__builtin_puts
+_IO_save_end
+short int
+size_t
+input
+sizetype
+_IO_write_ptr
+bomb.c
+_IO_buf_base
+infile
+_markers
+_IO_read_end
+_cur_column
+read_line
+GNU C 4.9.2 -m32 -mtune=generic -march=i586 -ggdb -O
+phase_1
+long long int
+phase_4
+_lock
+phase_defused
+printf
+/home/sjtu-ics-svn/archvie/SE15-lab2/bomblab/src
+_pos
+argv
+exit
+_sbuf
+_IO_FILE
+unsigned char
+argc
+long long unsigned int
+_IO_marker
+_shortbuf
+_IO_write_base
+_unused2
+_IO_read_ptr
+short unsigned int
+main
+_next
+__pad1
+__pad2
+__pad3
+__pad4
+__pad5
+phase_2
+phase_3
+_IO_write_end
+phase_5
+__off64_t
+__off_t
+_chain
+initialize_bomb
+_IO_backup_base
+stdin
+_flags2
+_mode
+_IO_read_base
+_vtable_offset
+_IO_save_base
+_fileno
+phase_6
+_flags
+stdout
+_IO_lock_t
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
+.debug_aranges
+.debug_info
+.debug_abbrev
+.debug_line
+.debug_str
+.debug_loc
+crtstuff.c
+__JCR_LIST__
+deregister_tm_clones
+register_tm_clones
+__do_global_dtors_aux
+completed.6279
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+bomb.c
+phases.c
+array.2845
+support.c
+sig_handler
+__FRAME_END__
+__JCR_END__
+__init_array_end
+_DYNAMIC
+__init_array_start
+_GLOBAL_OFFSET_TABLE_
+__libc_csu_fini
+skip
+phase_defused
+cuserid@@GLIBC_2.0
+_ITM_deregisterTMCloneTable
+__x86.get_pc_thunk.bx
+data_start
+input_strings
+printf@@GLIBC_2.0
+fflush@@GLIBC_2.0
+dup@@GLIBC_2.0
+inet_pton@@GLIBC_2.0
+fgets@@GLIBC_2.0
+_edata
+fclose@@GLIBC_2.1
+signal@@GLIBC_2.0
+sleep@@GLIBC_2.0
+_fini
+rewind@@GLIBC_2.0
+num_input_strings
+phase_5
+blank_line
+phase_3
+node9
+phase_1
+invalid_phase
+fwrite@@GLIBC_2.0
+bcopy@@GLIBC_2.0
+strcat@@GLIBC_2.0
+lab_id
+strcpy@@GLIBC_2.0
+node3
+explode_bomb
+node1
+getenv@@GLIBC_2.0
+__data_start
+puts@@GLIBC_2.0
+system@@GLIBC_2.0
+node7
+node5
+__gmon_start__
+exit@@GLIBC_2.0
+fun7
+__dso_handle
+_IO_stdin_used
+func4
+__libc_start_main@@GLIBC_2.0
+fprintf@@GLIBC_2.0
+write@@GLIBC_2.0
+string_length
+__libc_csu_init
+stdin@@GLIBC_2.0
+__isoc99_sscanf@@GLIBC_2.7
+fopen@@GLIBC_2.1
+_end
+__errno_location@@GLIBC_2.0
+_start
+secret_phase
+_fp_hw
+infile
+stdout@@GLIBC_2.0
+__bss_start
+main
+read_line
+strings_not_equal
+phase_4
+fputc@@GLIBC_2.0
+phase_6
+scratch
+_Jv_RegisterClasses
+send_msg
+phase_2
+node8
+writen
+sprintf@@GLIBC_2.0
+open_clientfd
+tmpfile@@GLIBC_2.1
+bomb_id
+socket@@GLIBC_2.0
+__TMC_END__
+_ITM_registerTMCloneTable
+send_msg_2
+node2
+node4
+node0
+gethostbyname@@GLIBC_2.0
+strtol@@GLIBC_2.0
+node6
+connect@@GLIBC_2.0
+_init
+close@@GLIBC_2.0
+read_six_numbers
+initialize_bomb
+fun6
+__ctype_b_loc@@GLIBC_2.3
