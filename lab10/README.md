@@ -4,8 +4,8 @@
 
 ### Introduction
 
-In this lab, you will write a concurrent Web proxy that logs requests.
-In the first part of the lab, you will write a simple sequential proxy that repeatedly waits for a request, forwards the request to the end server, and returns the result back to the browser, keeping a log of such requests in a disk file. This part will help you understand basics about network programming and the HTTP protocol.
+In this lab, you will write a concurrent Web proxy that logs requests.  
+In the first part of the lab, you will write a simple sequential proxy that repeatedly waits for a request, forwards the request to the end server, and returns the result back to the browser, keeping a log of such requests in a disk file. This part will help you understand basics about network programming and the HTTP protocol.  
 In the second part of the lab, you will upgrade your proxy so that it uses threads to deal with multiple clients concurrently. This part will give you some experience with concurrency and synchronization, which are crucial computer systems concepts.
 
 ### Full requirements
@@ -40,7 +40,7 @@ See [`lab10.pdf`](https://github.com/gousaiyang/icslabs/blob/master/lab10/lab10.
 
 ### 非常棘手的两个问题
 
-如何判断客户端的请求已经发送完毕了？如何判断服务器的响应已经接收完毕了？
+如何判断客户端的请求已经发送完毕了？如何判断服务器的响应已经接收完毕了？  
 如果不手动判断，而对方又没有关闭连接，就会造成 `rio_readlineb()` 函数一直被阻塞。
 
 我的处理方式是：

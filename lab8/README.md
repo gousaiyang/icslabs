@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This lab will help you understand the impact that cache memories can have on the performance of your C programs.
+This lab will help you understand the impact that cache memories can have on the performance of your C programs.  
 The lab consists of two parts. In the first part you will write a small C program (about 200-300 lines) that simulates the behavior of a cache memory. In the second part, you will optimize a small matrix transpose function, with the goal of minimizing the number of cache misses.
 
 ### Full requirements
