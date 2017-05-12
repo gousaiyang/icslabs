@@ -18,7 +18,7 @@ See [`lab2.pdf`](https://github.com/gousaiyang/icslabs/blob/master/lab2/lab2.pdf
 
 ### My score
 
-65 / 65
+65 / 65 (Full score)
 
 ### My general feelings
 

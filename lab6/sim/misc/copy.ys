@@ -1,0 +1,64 @@
+# Name: Gou Saiyang, ID: 515030910022
+
+	.pos 0
+init:
+	irmovl Stack, %esp
+	irmovl Stack, %ebp
+	call Main
+	halt
+
+	.align 4
+# Source block
+src:
+	.long 0x00a
+	.long 0x0b0
+	.long 0xc00
+# Destination block
+dest:
+	.long 0x111
+	.long 0x222
+	.long 0x333
+
+Main:
+	pushl %ebp
+	rrmovl %esp, %ebp
+	irmovl $3, %eax
+	pushl %eax
+	irmovl dest, %eax
+	pushl %eax
+	irmovl src, %eax
+	pushl %eax
+	call copy_block
+	rrmovl %ebp, %esp
+	popl %ebp
+	ret
+
+copy_block:
+	pushl %ebp
+	rrmovl %esp, %ebp
+	pushl %ebx
+	pushl %esi
+	xorl %eax, %eax
+	mrmovl 8(%ebp), %ecx
+	mrmovl 12(%ebp), %edx
+	mrmovl 16(%ebp), %ebx
+	andl %ebx, %ebx
+	je End
+Loop:	mrmovl (%ecx), %esi
+	rmmovl %esi, (%edx)
+	xorl %esi, %eax
+	irmovl $4, %esi
+	addl %esi, %ecx
+	addl %esi, %edx
+	irmovl $1, %esi
+	subl %esi, %ebx
+	jne Loop
+End:	popl %esi
+	popl %ebx
+	rrmovl %ebp, %esp
+	popl %ebp
+	ret
+
+	.pos 0x100
+Stack:
+
