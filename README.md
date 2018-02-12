@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a repo which contains lab assignments of [ICS course](http://ipads.se.sjtu.edu.cn/courses/ics/index.shtml) (SE101 & SE111) in SJTU in year 2016-2017. 
+This is a repo which contains lab assignments of [ICS course](http://ipads.se.sjtu.edu.cn/courses/ics/index.shtml) (SE101 & SE111) in SJTU in year 2016-2017.
 
 ## Contents
 
@@ -34,3 +34,7 @@ View those subdirectories for more information about each lab, including the req
 The online exam consists of part of lab2 and part of lab3. The time is pressing, so you should be proficient enough to finish them.
 
 - [online](https://github.com/gousaiyang/icslabs/tree/master/online)
+
+## License
+
+This repository contains materials provided by instructors/textbook authors/TAs/former students. They should only be used for educational purposes.
