@@ -32,6 +32,7 @@ See [`lab2.pdf`](https://github.com/gousaiyang/icslabs/blob/master/lab2/lab2.pdf
 
 - 使用 objdump 进行反汇编
 - 使用 strings 打印出程序中所有字符串（非必需，不过这么干可以直接搞出一些答案来）
+- （大三后续补充）可使用更加强大的静态分析工具 IDA Pro，它能将程序直接反编译成 C 代码，明显提升阅读效率！
 
 #### 动态调试（通过调试工具控制指令的执行，并在中间状态打印出有用的信息）
 
@@ -49,6 +50,7 @@ See [`lab2.pdf`](https://github.com/gousaiyang/icslabs/blob/master/lab2/lab2.pdf
     - 按 16 进制打印：`print/x $eax`
     - 按字符打印：`print/c *0x8048399`
     - 打印从某地址开始的字符串：`print/s (char*)0x8048399`
+- （大三后续补充）可以给 GDB 安装 [gdb-peda](https://github.com/longld/peda) 插件，调试体验更上一层楼！
 
 ### 操作技巧
 

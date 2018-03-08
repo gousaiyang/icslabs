@@ -26,7 +26,7 @@ See [`lab3.pdf`](https://github.com/gousaiyang/icslabs/blob/master/lab3/lab3.pdf
 
 ## Hints
 
-这个 lab 和 lab2 一样，也是要使用 objdump 和 GDB 的，但熟练度要求要小一些。基本上按照文档里说的方式来操作就行了。  
+这个 lab 和 lab2 一样，也是要使用静态分析和动态调试的方法，但熟练度要求要小一些。基本上按照文档里说的方式来操作就行了。  
 有几个需要注意的点：
 - 建议在草稿纸上画出栈帧结构图，有利于算清楚地址。
 - 某些与 `buf` 有关的关键地址要用 GDB 在运行时查看。
