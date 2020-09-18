@@ -40,7 +40,7 @@ See [`lab1.pdf`](https://github.com/gousaiyang/icslabs/blob/master/lab1/lab1.pdf
 3. 利用一些运算性质
   - `-x = ~x + 1`
   - `leastBitPos` 的运算性质（参见代码）
-  - `x + y = x ^ y + (x & y) << 1` （半加器补上进位，在 `sum3` 中用到）
+  - `x + y = (x ^ y) + ((x & y) << 1)` （半加器补上进位，在 `sum3` 中用到）
   - 利用运算时发生的溢出（在 `isNonZero` 中用到）
 
 注：题目解法不唯一，我的解法仅供参考，可能存在其他更好的解法。
